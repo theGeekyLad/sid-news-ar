@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_weight="3"
+        android:layout_width="250dp"
+        android:layout_height="0dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/circle" />
+        <ImageView
+            android:src="@drawable/ic_newspaper_regular"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:text="AR"
+            android:id="@+id/arButton"
+            android:backgroundTint="@color/accent"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="QR"
+            android:backgroundTint="@color/accent"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="History"
+            android:backgroundTint="@color/accent"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
