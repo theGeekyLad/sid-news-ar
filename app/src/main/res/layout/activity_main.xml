@@ -38,11 +38,13 @@
             android:layout_height="wrap_content" />
         <Button
             android:text="QR"
+            android:id="@+id/qrButton"
             android:backgroundTint="@color/accent"
             android:layout_width="150dp"
             android:layout_height="wrap_content" />
         <Button
             android:text="History"
+            android:id="@+id/historyButton"
             android:backgroundTint="@color/accent"
             android:layout_width="150dp"
             android:layout_height="wrap_content" />
